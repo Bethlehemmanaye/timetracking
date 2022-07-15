@@ -1,0 +1,374 @@
+@media only screen and (max-width: 1440px) {
+    .home__container{
+        padding-top: 150px;
+        padding-left: 200px;
+    }
+    .box__container{
+        padding: 1rem;
+        border-radius: 1rem;
+        
+    }
+    .grid{
+        display: grid;
+        gap: 1.25em;
+       
+        grid-template-columns: repeat(4, max-content);
+    }
+    .box__card1{
+        background-color: hsl(246, 80%, 60%);
+        padding: 20px;
+        border-radius: 1rem;
+        width: 150px;
+        height: 250px;   
+    }
+    .jeremy{
+        width: 50%;
+    }
+    .card1__title{
+        padding: 0.5px;
+    }
+    .tilte__report{
+        font-weight: lighter;
+        color: #fff;
+    }
+    .title__name{
+        font-family: serif;
+        color: #fff;
+    }
+   
+    .box__card2{
+        background-color:  hsl(259, 48%, 8%);
+        padding: 20px;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        width: 150px;
+        height: 118px;
+        position: relative;
+        bottom: 20px;
+        z-index: -1;
+    }
+    
+    .daily__list{
+        color: #DDD;
+        padding: 3px;
+        font-weight: lighter;
+        cursor: pointer;
+    }
+    .daily__list li:hover{
+        color: rgb(136, 46, 46);
+    }
+    .box__work{
+       
+        row-gap: 150px;
+    }
+    .work__card1{
+        background-color: hsl(15, 100%, 70%);
+        padding: 20px;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        width: 150px;
+        height: 30px;  
+    }
+    .work__img{
+        justify-content: center;
+        width: 40%;
+        position: relative;
+        bottom: 20px;
+        left: 97px
+    }
+   .work__card2{
+    height: 150px;
+    background-color: hsl(259, 48%, 8%);
+    border-radius: 1rem;
+    position:relative;
+        bottom: 50px;
+        z-index: 1;
+   }
+   .work__title{
+    color: #fff;
+    padding-left: 30px;
+    padding-top: 20px
+        
+    }
+    .work__list{
+        padding-bottom: 50px;
+    }
+    .work__hour{
+        font-family: serif;
+        color: #fff;
+        padding-left: 30px;
+    }
+    .work__time{
+        font-weight: lighter;
+        color: #fff;
+        padding-left: 30px;
+        padding-bottom: 50px;
+    }
+    .play__card1{
+        background-color: hsl(195, 74%, 62%);
+        padding: 20px;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        width: 150px;
+        height: 30px; 
+    }
+    .play__img{
+    justify-content: center;
+    width: 40%;
+    position: relative;
+    bottom: 20px;
+    left: 97px
+    }
+    .play__card2{
+    height: 150px;
+    background-color: hsl(259, 48%, 8%);
+    border-radius: 1rem;
+    position:relative;
+        bottom: 50px;
+        z-index: 1;
+    }
+    .play__time{
+        font-family: serif;
+        color: #fff;
+        padding-left: 30px;
+    }
+    .play__hour{
+
+    color: #fff;
+    padding-left: 30px;
+    padding-top: 20px
+    }
+
+    .play__hr{
+    font-weight: lighter;
+    color: #fff;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    }
+
+    .study__card1{
+    background-color: hsl(348, 100%, 68%);
+    padding: 20px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 150px;
+    height: 30px;
+    }
+    .study__img{
+        justify-content: center;
+        width: 40%;
+        position: relative;
+        bottom: 20px;
+        left: 97px
+        }
+    .study__card2{
+        height: 150px;
+        background-color: hsl(259, 48%, 8%);
+        border-radius: 1rem;
+        position:relative;
+            bottom: 50px;
+            z-index: 1;
+        }
+    .study__time{
+        font-family: serif;
+        color: #fff;
+        padding-left: 30px;
+    }
+    .study__hour{
+
+    color: #fff;
+    padding-left: 30px;
+    padding-top: 20px
+    }
+
+    .study__hr{
+    font-weight: lighter;
+    color: #fff;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    }
+    .exercise__card1{
+    background-color:  hsl(145, 58%, 55%);
+    padding: 20px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 150px;
+    height: 30px;
+    }
+    .exercise__img{
+        justify-content: center;
+        width: 40%;
+        position: relative;
+        bottom: 20px;
+        left: 97px
+        }
+    .exercise__card2{
+        height: 150px;
+        background-color: hsl(259, 48%, 8%);
+        border-radius: 1rem;
+        position:relative;
+            bottom: 50px;
+            z-index: 1;
+        }
+        .exercise__time{
+            font-family: serif;
+            color: #fff;
+            padding-left: 30px;
+        }
+        .exercise__hour{
+    
+        color: #fff;
+        padding-left: 30px;
+        padding-top: 20px
+        }
+    
+        .exercise__hr{
+        font-weight: lighter;
+        color: #fff;
+        padding-left: 30px;
+        padding-bottom: 80px;
+        }
+
+    .social__card1{
+    background-color: hsl(264, 64%, 52%);
+    padding: 20px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 150px;
+    height: 30px;
+    }
+    .social__img{
+        justify-content: center;
+        width: 40%;
+        position: relative;
+        bottom: 20px;
+        left: 97px
+        }
+        .social__card2{
+            height: 150px;
+            background-color: hsl(259, 48%, 8%);
+            border-radius: 1rem;
+            position:relative;
+                bottom: 50px;
+                z-index: 1;
+            }
+    .social__time{
+        font-family: serif;
+        color: #fff;
+        padding-left: 30px;
+    }
+    .social__hour{
+
+    color: #fff;
+    padding-left: 30px;
+    padding-top: 20px
+    }
+
+    .social__hr{
+    font-weight: lighter;
+    color: #fff;
+    padding-left: 30px;
+    padding-bottom: 80px;
+    }
+
+    .self-care__card1{
+    background-color:  hsl(43, 84%, 65%);
+    padding: 20px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 150px;
+    height: 30px;
+    }
+    .self-care__img{
+        justify-content: center;
+        width: 40%;
+        position: relative;
+        bottom: 20px;
+        left: 97px
+        }
+        .self-care__card2{
+            height: 150px;
+            background-color: hsl(259, 48%, 8%);
+            border-radius: 1rem;
+            position:relative;
+                bottom: 50px;
+                z-index: 1;
+            }
+    .self-care__time{
+        font-family: serif;
+        color: #fff;
+        padding-left: 30px;
+    }
+    .self-care__hour{
+
+    color: #fff;
+    padding-left: 30px;
+    padding-top: 20px
+    }
+
+    .self-care__hr{
+    font-weight: lighter;
+    color: #fff;
+    padding-left: 30px;
+    padding-bottom: 120px;
+    }
+}
+
+    /* 
+
+    @media  screen and (min-width:  375px) {
+        .grid{
+            display: grid;
+            gap: 1.25em;
+            grid-template-columns: repeat(1, max-content);
+        }
+        .time__list{
+           display: grid;
+           gap: .2rem;
+           grid-template-columns: repeat(2, max-content);
+        }
+       .work__card2{
+        display: grid;
+        gap: .2rem;
+        grid-template-columns: repeat(2, max-content)
+
+       }
+       .exercise__card2{
+        display: grid;
+        gap: .1rem;
+        grid-template-columns: repeat(2, max-content)
+
+       }
+       .play__card2{
+        display: grid;
+        gap: .2rem;
+        grid-template-columns: repeat(2, max-content)
+
+       }
+       .study__card2{
+        display: grid;
+        gap: .2rem;
+        grid-template-columns: repeat(2, max-content)
+
+       }
+       .social__card2{
+        display: grid;
+        gap: .2rem;
+        grid-template-columns: repeat(2, max-content)
+
+       }
+       .work__card2{
+        display: grid;
+        gap: .2rem;
+        grid-template-columns: repeat(2, max-content)
+
+       }
+       .self-care__card2{
+        display: grid;
+        gap: .1rem;
+        grid-template-columns: repeat(2, max-content)
+
+       }
+
+    }
+     */
